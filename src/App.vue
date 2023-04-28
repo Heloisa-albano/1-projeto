@@ -91,7 +91,7 @@
       <span>Confirmaçã: {{ confirma}}</span>      
       <button @click="mostrar = !mostrar"> confirmar</button>    
     </form>
-    <div v-if="mostrar">
+    <div v-if="mostrar" class= "mostrar">
       <p>Nome: {{ nome }}</p>
       <p>Endereço: {{ endereco}}</p>
       <p>Cidade digitada: {{ cidade}}</p>
